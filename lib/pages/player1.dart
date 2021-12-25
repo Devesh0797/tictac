@@ -167,6 +167,7 @@ class _MyHomePageState extends State<Player1> {
           if (!snapshot.hasData) {
             return new Text("");
           }
+          
           var userDocument = snapshot.data;
           if((snapshot.data as dynamic)['tile1'] != 'picture.jpg'){
             if(x1==0){
